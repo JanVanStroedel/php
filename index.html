@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>SiteTitle</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto">
+        <link rel="stylesheet" href="index-max.css">
+		<script src = "http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src = "http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+		<script src = "Mustache.js"></script>
+		<script src = "card.js" id="cardTemplate" type="text/template"></script>
+    </head>
+
+    <body>
+		<div class = "overlay"></div>
+		<div class = "left-menu">
+			<div class = "menu-head">
+				<p>Left menu</p>
+			</div>
+			<div class = "menu-body">
+				<div class = "button menu-button">
+					<p class = "button-text unselectable">Click me!</p>
+				</div>
+				<div class = "button menu-button">
+					<p class = "button-text unselectable">Click me!</p>
+				</div>
+				<div class = "button menu-button">
+					<p class = "button-text unselectable">Click me!</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class = "hamburger">
+				<div class = "hamburger-bg"></div>
+				<div class = "hamburger1" ></div>
+				<div class = "hamburger2" ></div>
+				<div class = "hamburger3" ></div>
+			</div>
+		
+		<div class = "head">			
+			<div class = "head-main">
+				<p class = "headtext">Hello!</p>
+			</div>
+			
+		</div>
+		
+		<div class = "block-content">
+			<p class="title">Title!</p>
+			<div id = "connectedRPIS" class = "cardlist">
+				<div class = "card">
+					<div class = "content">
+						<p class = "title">Hello,</p>
+						<p class = "text">this is a sample card. This is just sample text to test this card. press the "Click me!" button to reverse this text</p>
+						<div class = "button click-me-button ripple-effect">
+							<p class = "button-text unselectable">Click me!</p>
+						</div>
+						<div class = "button click-me-button ripple-effect">
+							<p class = "button-text unselectable">Click me!</p>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>	
+		
+		<script src="gmd.js"></script>
+		<script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,6 @@
+/* insert ip with name, update when name already exists */
+INSERT INTO `rpi_info`( `Name`, `IP`) VALUES ("name", "ip") ON DUPLICATE KEY UPDATE IP="ip";
+
+/* change user password */
+UPDATE mysql.user SET Password=PASSWORD('newPassword') WHERE User='theUser';
+UPDATE mysql.user SET Password=PASSWORD('73fsn90F#') WHERE User='root';
